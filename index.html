@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Verve Studios | Photography</title>
+    <meta name="description" content="Professional photography services: graduation, maternity, headshots, weddings, funerals, and artist video shoots.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-smooth-scroll="true" tabindex="0">
+
+    <!-- Navbar -->
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">Verve Studios</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section d-flex align-items-center text-center text-white">
+        <div class="hero-overlay"></div>
+        <video class="hero-bg d-none d-md-block" autoplay muted loop playsinline>
+            <source src="assets/img/hero.mp4" type="video/mp4">
+        </video>
+        <div class="container position-relative">
+            <h1 class="display-4 fw-bold">Capturing Moments, Creating Memories</h1>
+            <p class="lead text-white-50">Clean, modern, and timeless photography for every milestone.</p>
+            <div class="mt-4 d-flex justify-content-center gap-3 flex-wrap">
+                <a href="#portfolio" class="btn btn-accent btn-lg">View Portfolio</a>
+                <a href="#contact" class="btn btn-outline-light btn-lg">Book a Shoot</a>
+            </div>
+        </div>
+        <div class="hero-image d-md-none"></div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-md-6">
+                    <img src="assets/img/about.jpg" class="img-fluid rounded-3 shadow-sm" alt="Photographer portrait">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="text-muted">I am a passionate photographer dedicated to telling authentic stories through clean, minimal and contemporary visuals. From intimate portraits to vibrant celebrations, I aim to document your milestones with elegance and care.</p>
+                    <p class="text-muted">With years of experience across graduation, maternity, corporate headshots, weddings, funerals and artist video shoots, I blend artistry with professionalism to deliver images you will treasure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-4">Services</h2>
+            <div class="row g-4">
+                <!-- Service Cards -->
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card h-100 service-card">
+                        <img src="assets/img/services/graduation.jpg" class="card-img-top" alt="Graduation Photography">
+                        <div class="card-body">
+                            <h5 class="card-title">Graduation Photography 🎓</h5>
+                            <p class="card-text text-muted">Celebrate academic milestones with vibrant portraits and family moments.</p>
+                            <div class="d-flex gap-2">
+                                <a href="#portfolio" class="btn btn-sm btn-outline-dark">Learn More</a>
+                                <a href="#contact" class="btn btn-sm btn-accent">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card h-100 service-card">
+                        <img src="assets/img/services/maternity.jpg" class="card-img-top" alt="Maternity & Pregnancy Shoots">
+                        <div class="card-body">
+                            <h5 class="card-title">Maternity & Pregnancy Shoots 🤰</h5>
+                            <p class="card-text text-muted">Gentle, elegant sessions to preserve the beauty of motherhood.</p>
+                            <div class="d-flex gap-2">
+                                <a href="#portfolio" class="btn btn-sm btn-outline-dark">Learn More</a>
+                                <a href="#contact" class="btn btn-sm btn-accent">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card h-100 service-card">
+                        <img src="assets/img/services/headshots.jpg" class="card-img-top" alt="Professional/Corporate Headshots">
+                        <div class="card-body">
+                            <h5 class="card-title">Professional/Corporate Headshots 👔</h5>
+                            <p class="card-text text-muted">Polished headshots that convey credibility and personality.</p>
+                            <div class="d-flex gap-2">
+                                <a href="#portfolio" class="btn btn-sm btn-outline-dark">Learn More</a>
+                                <a href="#contact" class="btn btn-sm btn-accent">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card h-100 service-card">
+                        <img src="assets/img/services/weddings.jpg" class="card-img-top" alt="Weddings">
+                        <div class="card-body">
+                            <h5 class="card-title">Weddings 💍</h5>
+                            <p class="card-text text-muted">Timeless coverage blending candid emotions and fine-art details.</p>
+                            <div class="d-flex gap-2">
+                                <a href="#portfolio" class="btn btn-sm btn-outline-dark">Learn More</a>
+                                <a href="#contact" class="btn btn-sm btn-accent">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card h-100 service-card">
+                        <img src="assets/img/services/funerals.jpg" class="card-img-top" alt="Funerals & Memorials">
+                        <div class="card-body">
+                            <h5 class="card-title">Funerals & Memorials 🕊️</h5>
+                            <p class="card-text text-muted">Respectful documentation honoring lives and memories with dignity.</p>
+                            <div class="d-flex gap-2">
+                                <a href="#portfolio" class="btn btn-sm btn-outline-dark">Learn More</a>
+                                <a href="#contact" class="btn btn-sm btn-accent">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card h-100 service-card">
+                        <img src="assets/img/services/artist-video.jpg" class="card-img-top" alt="Artist Video Shoots">
+                        <div class="card-body">
+                            <h5 class="card-title">Artist Video Shoots 🎥</h5>
+                            <p class="card-text text-muted">Dynamic visuals for music artists, creators, and brands.</p>
+                            <div class="d-flex gap-2">
+                                <a href="#portfolio" class="btn btn-sm btn-outline-dark">Learn More</a>
+                                <a href="#contact" class="btn btn-sm btn-accent">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-4">Portfolio</h2>
+
+            <div class="d-flex justify-content-center flex-wrap gap-2 mb-4">
+                <button class="btn btn-outline-dark btn-sm active" data-filter="*">All</button>
+                <button class="btn btn-outline-dark btn-sm" data-filter="graduation">Graduation</button>
+                <button class="btn btn-outline-dark btn-sm" data-filter="maternity">Maternity</button>
+                <button class="btn btn-outline-dark btn-sm" data-filter="professional">Professional</button>
+                <button class="btn btn-outline-dark btn-sm" data-filter="weddings">Weddings</button>
+                <button class="btn btn-outline-dark btn-sm" data-filter="funerals">Funerals</button>
+                <button class="btn btn-outline-dark btn-sm" data-filter="artist">Artist Videos</button>
+            </div>
+
+            <div class="row g-3" id="gallery">
+                <!-- 12 sample items -->
+                <div class="col-6 col-md-4 gallery-item" data-category="graduation">
+                    <img src="assets/img/portfolio/graduation1.jpg" class="img-fluid rounded-3 gallery-thumb" alt="Graduation sample" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-full="assets/img/portfolio/graduation1.jpg">
+                </div>
+                <div class="col-6 col-md-4 gallery-item" data-category="maternity">
+                    <img src="assets/img/portfolio/maternity1.jpg" class="img-fluid rounded-3 gallery-thumb" alt="Maternity sample" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-full="assets/img/portfolio/maternity1.jpg">
+                </div>
+                <div class="col-6 col-md-4 gallery-item" data-category="professional">
+                    <img src="assets/img/portfolio/headshot1.jpg" class="img-fluid rounded-3 gallery-thumb" alt="Headshot sample" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-full="assets/img/portfolio/headshot1.jpg">
+                </div>
+                <div class="col-6 col-md-4 gallery-item" data-category="weddings">
+                    <img src="assets/img/portfolio/wedding1.jpg" class="img-fluid rounded-3 gallery-thumb" alt="Wedding sample" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-full="assets/img/portfolio/wedding1.jpg">
+                </div>
+                <div class="col-6 col-md-4 gallery-item" data-category="funerals">
+                    <img src="assets/img/portfolio/funeral1.jpg" class="img-fluid rounded-3 gallery-thumb" alt="Funeral sample" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-full="assets/img/portfolio/funeral1.jpg">
+                </div>
+                <div class="col-6 col-md-4 gallery-item" data-category="artist">
+                    <img src="assets/img/portfolio/artist1.jpg" class="img-fluid rounded-3 gallery-thumb" alt="Artist video sample" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-full="assets/img/portfolio/artist1.jpg">
+                </div>
+                <div class="col-6 col-md-4 gallery-item" data-category="graduation">
+                    <img src="assets/img/portfolio/graduation2.jpg" class="img-fluid rounded-3 gallery-thumb" alt="Graduation sample" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-full="assets/img/portfolio/graduation2.jpg">
+                </div>
+                <div class="col-6 col-md-4 gallery-item" data-category="maternity">
+                    <img src="assets/img/portfolio/maternity2.jpg" class="img-fluid rounded-3 gallery-thumb" alt="Maternity sample" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-full="assets/img/portfolio/maternity2.jpg">
+                </div>
+                <div class="col-6 col-md-4 gallery-item" data-category="professional">
+                    <img src="assets/img/portfolio/headshot2.jpg" class="img-fluid rounded-3 gallery-thumb" alt="Headshot sample" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-full="assets/img/portfolio/headshot2.jpg">
+                </div>
+                <div class="col-6 col-md-4 gallery-item" data-category="weddings">
+                    <img src="assets/img/portfolio/wedding2.jpg" class="img-fluid rounded-3 gallery-thumb" alt="Wedding sample" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-full="assets/img/portfolio/wedding2.jpg">
+                </div>
+                <div class="col-6 col-md-4 gallery-item" data-category="funerals">
+                    <img src="assets/img/portfolio/funeral2.jpg" class="img-fluid rounded-3 gallery-thumb" alt="Funeral sample" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-full="assets/img/portfolio/funeral2.jpg">
+                </div>
+                <div class="col-6 col-md-4 gallery-item" data-category="artist">
+                    <img src="assets/img/portfolio/artist2.jpg" class="img-fluid rounded-3 gallery-thumb" alt="Artist video sample" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-full="assets/img/portfolio/artist2.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-dark">
+                <div class="modal-body p-0 position-relative">
+                    <button type="button" class="btn-close btn-close-white position-absolute end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <img id="lightboxImage" src="" class="w-100" alt="Preview">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-4">Testimonials</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <div class="card border-0 shadow-sm p-4 text-center">
+                                    <img src="assets/img/testimonials/client1.jpg" class="rounded-circle mx-auto mb-3" width="70" height="70" alt="Client 1">
+                                    <p class="mb-1">“Absolutely stunning photos! Professional, friendly and efficient throughout.”</p>
+                                    <small class="text-muted">— Aisha K.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <div class="card border-0 shadow-sm p-4 text-center">
+                                    <img src="assets/img/testimonials/client2.jpg" class="rounded-circle mx-auto mb-3" width="70" height="70" alt="Client 2">
+                                    <p class="mb-1">“Our wedding album brings back all the emotions—couldn't be happier!”</p>
+                                    <small class="text-muted">— Michael & Thando</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <div class="card border-0 shadow-sm p-4 text-center">
+                                    <img src="assets/img/testimonials/client3.jpg" class="rounded-circle mx-auto mb-3" width="70" height="70" alt="Client 3">
+                                    <p class="mb-1">“Great experience for my corporate headshots—on-brand and on-time.”</p>
+                                    <small class="text-muted">— Lerato M.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-4">Contact</h2>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <form class="card border-0 shadow-sm p-4" id="contactForm">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your full name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone" class="form-label">Phone</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="(+27) 012 345 6789" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="service" class="form-label">Service Interested In</label>
+                                <select id="service" class="form-select" required>
+                                    <option value="" selected disabled>Choose...</option>
+                                    <option>Graduation Photography</option>
+                                    <option>Maternity & Pregnancy Shoots</option>
+                                    <option>Professional/Corporate Headshots</option>
+                                    <option>Weddings</option>
+                                    <option>Funerals & Memorials</option>
+                                    <option>Artist Video Shoots</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" class="form-control" rows="5" placeholder="Tell me about your project..." required></textarea>
+                            </div>
+                        </div>
+                        <div class="d-grid mt-4">
+                            <button type="submit" class="btn btn-accent btn-lg">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm p-4 h-100">
+                        <h5 class="mb-3">Get in touch</h5>
+                        <p class="mb-1"><strong>Phone:</strong> <a href="tel:+27123456789" class="link-dark">(+27) 12 345 6789</a></p>
+                        <p class="mb-1"><strong>Email:</strong> <a href="mailto:info@vervestudios.com" class="link-dark">info@vervestudios.com</a></p>
+                        <p class="mb-3"><strong>WhatsApp:</strong> <a href="https://wa.me/27123456789" target="_blank" rel="noopener" class="link-dark">Chat now</a></p>
+                        <div class="d-flex gap-3">
+                            <a href="#" aria-label="Instagram" class="text-dark fs-4"><i class="bi bi-instagram"></i></a>
+                            <a href="#" aria-label="Facebook" class="text-dark fs-4"><i class="bi bi-facebook"></i></a>
+                            <a href="#" aria-label="Twitter" class="text-dark fs-4"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#" aria-label="YouTube" class="text-dark fs-4"><i class="bi bi-youtube"></i></a>
+                        </div>
+                        <div class="ratio ratio-16x9 mt-4">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537353153168!3d-37.8162797420211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQ5JzAwLjYiUyAxNDTCsDU3JzE0LjMiRQ!5e0!3m2!1sen!2s!4v1611818888888" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 bg-dark text-white-50">
+        <div class="container d-flex flex-column flex-sm-row justify-content-between align-items-center">
+            <p class="mb-2 mb-sm-0">© <span id="year"></span> Verve Studios. All rights reserved.</p>
+            <a href="#home" class="link-light small">Back to top</a>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <a class="fab whatsapp" href="https://wa.me/27123456789" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path d="M13.601 2.326A7.854 7.854 0 0 0 8.043.001C3.604.001.015 3.59.015 8.029c0 1.412.37 2.79 1.073 4.004L0 16l4.056-1.06a7.98 7.98 0 0 0 3.986 1.07h.003c4.438 0 8.027-3.589 8.027-8.028 0-2.144-.835-4.159-2.471-5.656zM8.045 14.5h-.003a6.52 6.52 0 0 1-3.326-.91l-.238-.141-2.407.629.643-2.346-.155-.241a6.52 6.52 0 0 1-.997-3.462c0-3.606 2.936-6.542 6.544-6.542a6.49 6.49 0 0 1 4.64 1.924 6.49 6.49 0 0 1 1.918 4.62c0 3.607-2.936 6.542-6.545 6.542zm3.557-4.936c-.195-.098-1.151-.568-1.329-.633-.178-.065-.308-.098-.438.098-.129.195-.503.633-.617.762-.114.129-.226.146-.421.049-.195-.098-.824-.304-1.57-.971-.58-.517-.971-1.157-1.085-1.352-.114-.195-.012-.301.086-.399.088-.088.195-.226.293-.339.098-.114.129-.195.195-.324.065-.129.033-.244-.016-.339-.049-.098-.438-1.058-.6-1.45-.158-.381-.319-.33-.438-.335l-.373-.007a.72.72 0 0 0-.52.244c-.178.195-.676.66-.676 1.61s.693 1.866.79 1.994c.098.129 1.362 2.082 3.3 2.922.462.2.823.319 1.104.408.464.148.886.127 1.22.077.372-.056 1.151-.469 1.315-.923.162-.454.162-.843.114-.923-.049-.081-.178-.129-.373-.226z"/></svg>
+        </a>
+        <a class="fab call" href="tel:+27123456789" aria-label="Call">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path d="M3.654 1.328a.678.678 0 0 1 1.015-.063l2.29 2.29c.329.329.445.81.302 1.243l-.805 2.416a.678.678 0 0 0 .178.69l3.457 3.457a.678.678 0 0 0 .69.178l2.416-.805a1.21 1.21 0 0 1 1.243.302l2.29 2.29a.678.678 0 0 1-.063 1.015l-1.272 1.017c-.375.3-.86.417-1.326.316-1.64-.36-3.997-1.61-6.36-3.973C4.523 9.233 3.273 6.876 2.913 5.237c-.1-.466.016-.95.316-1.326l1.017-1.272z"/></svg>
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
